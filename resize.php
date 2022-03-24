@@ -1,6 +1,4 @@
 <?php
-// Modelo de uso
-// http://localhost/wideimage/resize.php?path=img/tenis.jpg&width=500&height=500
 require 'lib/WideImage.php';
 header('Content-type: image/jpeg');
 $path = $_GET['path'];
